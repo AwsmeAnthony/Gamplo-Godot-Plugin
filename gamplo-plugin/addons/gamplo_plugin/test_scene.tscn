@@ -1,0 +1,53 @@
+[gd_scene format=3 uid="uid://r75y2b33x5r8"]
+
+[ext_resource type="Script" uid="uid://de7wsdfr8qwrt" path="res://addons/gamplo_plugin/test_scene.gd" id="1_t4vgl"]
+[ext_resource type="Texture2D" uid="uid://bs20jxef5rfk2" path="res://icon.svg" id="2_q7k3v"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_61jtb"]
+bg_color = Color(0.14901961, 0.14901961, 0.14901961, 0.7254902)
+
+[sub_resource type="LabelSettings" id="LabelSettings_u13ih"]
+font_size = 47
+
+[node name="Test" type="CanvasLayer" unique_id=1888843003]
+script = ExtResource("1_t4vgl")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1714980092]
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 219.0
+grow_horizontal = 2
+color = Color(0.13725491, 0.13725491, 0.13725491, 0.627451)
+
+[node name="ErrorLabel" type="RichTextLabel" parent="." unique_id=977082376]
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 215.0
+grow_horizontal = 2
+focus_mode = 2
+theme_override_styles/background = SubResource("StyleBoxFlat_61jtb")
+selection_enabled = true
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1951031017]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 1.0
+offset_top = -313.0
+offset_right = 257.0
+offset_bottom = -57.0
+grow_vertical = 0
+texture = ExtResource("2_q7k3v")
+expand_mode = 2
+
+[node name="username" type="Label" parent="." unique_id=1341015241]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -23.0
+offset_right = 47.0
+grow_vertical = 0
+text = "Name"
+label_settings = SubResource("LabelSettings_u13ih")
+
+[node name="HTTPRequest" type="HTTPRequest" parent="." unique_id=1470362886]
