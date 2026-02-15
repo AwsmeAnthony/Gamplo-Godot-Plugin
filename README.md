@@ -1,6 +1,6 @@
 # Gamplo Godot Plugin v1.1
-<p style="margin: 20px;">A Pulgin to murge Gamplo with Godot!</p>
-The Godot Gamplo Plugin currently supports both AutoLogin and Achievemnts! I plan to add more soon!
+<p style="margin: 20px;">A Pulgin to merge Gamplo with Godot!</p>
+The Godot Gamplo Plugin currently supports both AutoLogin and Achievements! I plan to add more soon!
 
 
 # How To Use
