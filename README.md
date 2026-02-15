@@ -4,7 +4,7 @@ The Godot Gamplo Plugin currently supports both AutoLogin and Achievements! I pl
 
 
 # How To Use
-<h2> setup </h2>
+<h2> Setup </h2>
 Set <code>addons/gamplo_plugin/Gamplo.gd</code> as a autoload 
 
 
