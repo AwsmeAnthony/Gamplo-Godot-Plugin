@@ -34,6 +34,8 @@ func _ready():
 	else:
 		errors.append("Gamplo needs a web build")
 #endregion
+	
+	achievement_start_request()
 
 
 #region AutoLogin
@@ -67,8 +69,8 @@ func _on_autologin_request_completed(_result, response_code, _headers, body):
 		session_id = parsed["sessionId"]
 
 	errors.append("Gamplo data updated:")
+	get_achievements()
 	emit_signal("loged_in", gamplo_data)
-	achievement_start_request()
 	
 	errors.append(str(gamplo_data))
 
