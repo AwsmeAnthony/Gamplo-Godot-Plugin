@@ -9,7 +9,7 @@ Set <code>addons/gamplo_plugin/Gamplo.gd</code> as a autoload
 
 
 <h2> AutoLogin </h2>
-<p style="margin: 20px;"><code>Gamplo.gamplo_data</code> will retun with</p>
+<p style="margin: 20px;"><code>Gamplo.gamplo_data</code> will return with</p>
 
 
 
@@ -23,7 +23,7 @@ Set <code>addons/gamplo_plugin/Gamplo.gd</code> as a autoload
   }
 }</code></pre>
 
-<p style="margin: 20px;">If you would like to get the players <code>displayName</code> your code would look somthing like</p>
+<p style="margin: 20px;">If you would like to get the players <code>displayName</code> your code would look something like</p>
 
 <pre class="code-block"><code>if Gamplo.gamplo_data == {}:
   return
@@ -31,7 +31,7 @@ Set <code>addons/gamplo_plugin/Gamplo.gd</code> as a autoload
 username.text = Gamplo.gamplo_data["player"]["displayName"]</code></pre>
 
 <h2> Achievements </h2>
-<p style="margin: 20px;">To unlock an Achievemnt call</p>
+<p style="margin: 20px;">To unlock an Achievement call</p>
 
 <pre class="code-block"><code>Gamplo.unlock_achievement(key)</code></pre>
 
