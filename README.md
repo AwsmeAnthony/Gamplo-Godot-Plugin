@@ -30,7 +30,7 @@ Set <code>addons/gamplo_plugin/Gamplo.gd</code> as a autoload
 	
 username.text = Gamplo.gamplo_data["player"]["displayName"]</code></pre>
 
-<h2> Achievemnts </h2>
+<h2> Achievements </h2>
 <p style="margin: 20px;">To unlock an Achievemnt call</p>
 
 <pre class="code-block"><code>Gamplo.unlock_achievement(key)</code></pre>
